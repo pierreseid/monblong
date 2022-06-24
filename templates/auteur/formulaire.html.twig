@@ -1,0 +1,10 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}{{ parent() }} - form auteur{% endblock %}
+
+{% block content %}
+<h1>ajout d'un auteur</h1>
+
+{{ form(formAuteur) }}
+
+{% endblock %}
